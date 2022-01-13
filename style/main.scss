@@ -56,6 +56,11 @@ header {
 
         .enter {
             display: block;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
         }
     }
 }
@@ -85,6 +90,11 @@ aside {
         position: absolute;
         top: 30px;
         right: 50px;
+
+        &:hover {
+            transform: rotate(180deg);
+            transition: 1s;
+        }
     }
 
     a {

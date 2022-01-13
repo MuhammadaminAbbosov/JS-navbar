@@ -60,6 +60,12 @@ header img {
   header .enter {
     display: block;
   }
+  header .enter:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
 }
 
 .active {
@@ -86,6 +92,13 @@ aside img {
   position: absolute;
   top: 30px;
   right: 50px;
+}
+
+aside img:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 aside a {
