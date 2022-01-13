@@ -46,6 +46,10 @@ header {
     }
 }
 
+aside {
+    display: none;
+}
+
 @media (max-width: 750px) {
 
     body {
@@ -72,7 +76,8 @@ header {
         position: absolute;
         z-index: 5;
         transform: translateX(0);
-        transition: 0.8s;
+        transition: 1s;
+        display: block;
     }
     
     aside {
@@ -81,7 +86,7 @@ header {
         right: 0;
     
         transform: translateX(+200px);
-        transition: 0.8s;
+        transition: 1s;
         z-index: -1;
         width: 200px;
         height: 100%;

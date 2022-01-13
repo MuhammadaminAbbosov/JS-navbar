@@ -50,6 +50,10 @@ header img {
   display: none;
 }
 
+aside {
+  display: none;
+}
+
 @media (max-width: 750px) {
   body {
     overflow: hidden;
@@ -74,8 +78,9 @@ header img {
     z-index: 5;
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    display: block;
   }
   aside {
     position: absolute;
@@ -83,8 +88,8 @@ header img {
     right: 0;
     -webkit-transform: translateX(200px);
             transform: translateX(200px);
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
+    -webkit-transition: 1s;
+    transition: 1s;
     z-index: -1;
     width: 200px;
     height: 100%;
