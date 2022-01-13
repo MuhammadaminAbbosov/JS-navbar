@@ -74,13 +74,16 @@ header img {
 .active {
   position: absolute;
   z-index: 5;
-  right: 0;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 aside {
   position: absolute;
   top: 0;
-  right: -200px;
+  right: 0;
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px);
   z-index: -1;
   width: 200px;
   height: 100%;
