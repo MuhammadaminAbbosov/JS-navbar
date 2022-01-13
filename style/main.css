@@ -51,6 +51,9 @@ header img {
 }
 
 @media (max-width: 750px) {
+  body {
+    overflow: hidden;
+  }
   header {
     padding: 30px 50px;
   }
