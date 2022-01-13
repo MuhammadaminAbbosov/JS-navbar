@@ -73,6 +73,7 @@ header {
     position: absolute;
     z-index: 5;
     transform: translateX(0);
+    transition: 0.8s;
 }
 
 aside {
@@ -85,7 +86,6 @@ aside {
     width: 200px;
     height: 100%;
 
-    transition: 0.8s;
     background-color: #864646;
 
     img {
